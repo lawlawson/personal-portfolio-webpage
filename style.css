@@ -100,6 +100,18 @@ nav .right a span {
   border-radius: 50%;
 }
 
+@media (max-width: 850px) {
+  .hero-section .text h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 740px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+}
+
 @media (max-width: 600px) {
   nav {
     padding: 0 20px;
@@ -117,5 +129,13 @@ nav .right a span {
 
   nav .right a span {
     display: none;
+  }
+
+  .hero-section {
+    padding: 0 20px;
+  }
+
+  .hero-section .text h2 {
+    font-size: 30px;
   }
 }
