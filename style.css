@@ -145,6 +145,40 @@ nav .right a span {
   font-size: 18px;
 }
 
+/* Projects */
+.projects-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.projects-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.projects-section .group .project-details {
+  text-align: center;
+  flex: 2;
+}
+
+.projects-section .group .text {
+  flex: 8;
+}
+
+.projects-section .group .project-details img {
+  width: 400px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 @media (max-width: 850px) {
   .hero-section .text h2 {
     font-size: 35px;
@@ -154,6 +188,10 @@ nav .right a span {
 @media (max-width: 740px) {
   .hero-section {
     flex-direction: column-reverse;
+  }
+
+  .projects-section .group {
+    flex-direction: column;
   }
 }
 
